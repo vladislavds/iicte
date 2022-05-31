@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+ 	<meta charset="utf-8">
+	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+ 	<a-scene>
+ 	<a-sky color="grey"></a-sky>
+	<a-torus color="green" position="-2 1 -5" radius="1.2" animation="property: components.material.material.color; type: color; from: green; to: red; loop: true; dur: 5000" material="" geometry=""></a-torus>
+	<a-plane src = "leaves-background-with-metallic-foil_79603-956.webp" width="7" height="7" rotation="50 0 0" position="-2 -2 -5"></a-plane>
+	<a-cylinder color="yellow" height="2" radius="0.05" position="-2 -1 -5"></a-cylinder>
+	<a-cylinder color="blue" height="2" radius="0.05" position="-3 -1 -5"></a-cylinder>
+	<a-torus-knot color="orange" radius="1.2" position="-3 1 -5" animation="property: rotation; to: 0 0 360; loop: true; dur: 10000"></a-torus-knot>
+	<a-plane width="9" height="2" position="3 1 -9"></a-plane>
+	<a-text value="Дорошко Владислав Week 2" color="black" width="10" position="-0.5 1 -6" font="Adventure-msdf.json" negate="false"></a-text>
+	
+</a-text>
+ 	</a-scene>
+</html> 
