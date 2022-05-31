@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ 	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+ 	<a-scene embedded arjs = "trackingMethod: best;">
+	<a-anchor hit-testing-enabled='true'>
+ 	<a-sky color="grey"></a-sky>
+	<a-torus color="green" position="0 0.5 0" radius="0.5"></a-torus>
+	<a-plane src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg" width="3.5" height="3.5" rotation="0 -1 0" position="3 -2 -3" material="" geometry=""></a-plane>
+	<a-cylinder color="yellow" height="2" radius="0.05" position="0 0 0"></a-cylinder>
+	<a-cylinder color="blue" height="2" radius="0.05" position="1 0 0"></a-cylinder>
+	<a-torus-knot color="orange" radius="0.5" position="1 0.5 0"></a-torus-knot>
+	<a-plane scr="https://raw.githubusercontent.com/aframevr/sampleassets/master/assets/images/uvgrid/UV_Grid_Sm.jpg" height="2.5" width="1.5" position="0 1 -1" material="" geometry=""></a-plane>
+	<a-text value="Дорошко Владислав" color="black" width="3" position="-1 0.5 -1" font="Adventure-msdf.json" negate="false"></a-text>
+	</a-anchor>
+        <a-entity camera=""></a-entity>
+ 	</a-scene>
+</html> 
